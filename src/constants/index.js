@@ -1,166 +1,73 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Company Profile Web | Idscore",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Developed a responsive and scalable company profile website for IdScore to strengthen brand presence and improve digital engagement.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Built the frontend using Next.js and Tailwind CSS to ensure fast performance, SEO optimization, and a modern responsive user interface across devices.",
+      "Implemented backend services using Express.js and Laravel, with Sequelize ORM and MySQL for efficient database management and structured data handling.",
+      "Integrated secure authentication, dynamic content management, and optimized API communication between frontend and backend systems.", 
+      "Focused on clean architecture, performance optimization, and maintainable code structure to support long-term scalability and future feature expansion.",
     ],
-    href: "",
+    href: "https://www.idscore.id/",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/idscore.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Javascipt",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
+      },
+       {
+        id: 4,
+        name: "ExpressJS",
+        path: "/assets/logos/express.svg",
+      },
+       {
+        id: 5,
+        name: "Sequelize",
+        path: "/assets/logos/sequelize.svg",
+      },
+       {
+        id: 6,
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
+      },
+       {
+        id: 7,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
+      },
+       {
+        id: 8,
+        name: "Laravel",
+        path: "/assets/logos/laravel.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "WordPress Custom Theme | Baca",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Developed a fully customized WordPress theme for a digital news platform to ensure optimized content delivery and structured news presentation.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Built responsive layouts using HTML5 and CSS3, focusing on readability, performance optimization, and cross-device compatibility.",
+      "Customized theme components, article templates, and content structure to support high-volume publishing and improved user engagement.",
     ],
-    href: "",
+    href: "https://www.baca.today/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/baca.png",
     tags: [
       {
         id: 1,
@@ -177,47 +84,255 @@ export const myProjects = [
         name: "CSS3",
         path: "/assets/logos/css3.svg",
       },
+    ],
+  },
+  {
+    id: 3,
+    title: "Media Monitoring Analytics Web | Medmon",
+    description:
+      "Developed a media monitoring analytics dashboard to visualize and analyze digital media trends and sentiment insights.",
+    subDescription: [
+      "Built with Next.js for optimized rendering and SEO, and Tailwind CSS for a responsive and modern UI design.",
+      "Implemented interactive charts, data filtering, and structured analytics views to support real-time monitoring and decision-making processes.",
+    ],
+    href: "https://medmon.tmsosial.asia/",
+    logo: "",
+    image: "/assets/projects/medmon.png",
+    tags: [
+      {
+        id: 1,
+        name: "Javascipt",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "News Aggregator | Klik",
+    description:
+      "Built a scalable news aggregator platform that collects and organizes news from multiple sources into a centralized interface.",
+    subDescription: [
+      "Developed the frontend using Next.js and Tailwind CSS for fast loading and responsive layouts.",
+      "Implemented backend services with Express.js to handle API integration, content processing, and structured news categorization.",
+    ],
+    href: "https://klik.tmsosial.asia/",
+    logo: "",
+    image: "/assets/projects/klik.png",
+    tags: [
+      {
+        id: 1,
+        name: "Javascipt",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+       {
+        id: 4,
+        name: "ExpressJS",
+        path: "/assets/logos/express.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Image Caption Generator | Captain Post",
+    description:
+      "Developed an AI-powered image caption generator platform that transforms images into engaging and context-aware captions.",
+    subDescription: [
+      "Built the frontend using Next.js and Tailwind CSS for a seamless and responsive user experience.",
+      "Implemented AI processing using Python and FastAPI, integrating large language models via Ollama and Hugging Face, with ComfyUI for image workflow orchestration.",
+      "Designed database architecture using MySQL to manage user data and caption history.",
+      "Focused on scalable AI inference pipelines and optimized prompt engineering for high-quality output generation.",
+    ],
+    href: "https://captain.virtueai.id/",
+    logo: "",
+    image: "/assets/projects/captain-post.png",
+    tags: [
+       {
+        id: 1,
+        name: "Javascipt",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 5,
+        name: "FastAPI",
+        path: "/assets/logos/fastapi.svg",
+      },
+      {
+        id: 6,
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
+      },
+      {
+        id: 7,
+        name: "Ollama",
+        path: "/assets/logos/ollama.svg",
+      },
+      {
+        id: 8,
+        name: "Hugging Face",
+        path: "/assets/logos/huggingface.svg",
+      },
+      {
+        id: 9,
+        name: "ComfyUI",
+        path: "/assets/logos/comfyui.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "Online Learning Platform",
+    title: "AI Virtual Beauty Assistant OR Product Recommendation Chatbot for Beauty | Shopethic",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Developed an AI-powered virtual beauty assistant that provides personalized skincare and product recommendations.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Built the frontend using Next.js for performance optimization and responsive interaction design.",
+      "Integrated Ollama-based language models to process user queries and generate context-aware beauty product recommendations.",
+      "Designed conversational flows to enhance customer engagement and simulate real-time consultation experiences.",
     ],
-    href: "",
+    href: "https://shopethic.tms.my.id/",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/shopethic.png",
     tags: [
-      {
+       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Javascipt",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "NextJS",
+        path: "/assets/logos/nextjs.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+       {
+        id: 4,
+        name: "Ollama",
+        path: "/assets/logos/ollama.svg",
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Smart City Dashboard | Smart City",
+    description:
+      "Developed a smart city monitoring dashboard to visualize urban data insights and operational metrics.",
+    subDescription: [
+      "Built using React with TypeScript to ensure type safety and maintainable code architecture, powered by Vite for fast development and build performance.",
+      "Implemented dynamic data visualization, modular components, and responsive layouts to support real-time monitoring and decision support systems.",
+    ],
+    href: "https://smartcity.tms.my.id/",
+    logo: "",
+    image: "/assets/projects/smart-city.png",
+    tags: [
+       {
+        id: 1,
+        name: "Typescipt",
+        path: "/assets/logos/typescript.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "ViteJS",
+        path: "/assets/logos/vitejs.svg",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "REST API | Hadith, Influencers, Polling & Voting",
+    description:
+      "Designed and developed scalable RESTful APIs to support multiple platforms including Hadith content services, influencer data management, and polling & voting systems.",
+    subDescription: [
+      "Built high-performance APIs using FastAPI and Express.js with structured ORM management via Sequelize and MySQL.",
+      "Integrated Elasticsearch for advanced search capabilities and fast content indexing.",
+      "Utilized MinIO for object storage management, enabling efficient media and asset handling.",
+      "Implemented authentication, structured endpoint documentation, and scalable architecture to support high concurrent requests.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/rest-api.png",
+    tags: [
+      {
+        id: 1,
+        name: "Python",
+        path: "/assets/logos/python.svg",
+      },
+      {
+        id: 2,
+        name: "FastAPI",
+        path: "/assets/logos/fastapi.svg",
+      },
+      {
+        id: 3,
+        name: "Elasticsearch",
+        path: "/assets/logos/elastic-search.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "ExpressJS",
+        path: "/assets/logos/express.svg",
+      },
+      {
+        id: 6,
+        name: "Sequelize",
+        path: "/assets/logos/sequelize.svg",
+      },
+      {
+        id: 7,
+        name: "MySQL",
+        path: "/assets/logos/mysql.svg",
+      },
+      {
+        id: 8,
+        name: "MinIO",
+        path: "/assets/logos/minio.svg",
       },
     ],
   },
@@ -231,48 +346,57 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/tasyahan/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "https://www.instagram.com/tasyahan",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Internship",
+    job: "Full-Stack Developer Trans Media Sosial",
+    date: "Jul - Sept 2023",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Developed a full-stack news aggregator platform 'Klik', using Next.js and Material UI, enabling users to explore curated news content.",
+      "Built the backend using Node.js and Express.js to manage news data through a well-structured RESTful API.",
+      "Developed an article website 'Baca', using WordPress as a Content Management System, with Bootstrap for frontend styling and Instagram platform integration.",
+      "Collaborated closely with the development team to identify issues, implement solutions, and apply best practices in software development.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Freelance",
+    job: "Full-Stack Developer Trans Media Sosial",
+    date: "Sept - Nov 2023",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developed a corporate website for PT PEFINDO Biro Kredit using Next.js and Express.js to deliver a modern and scalable web solution.",
+      "Built an accessible and responsive user interface using Tailwind CSS, improving user engagement and overall experience.",
+      "Implemented client-side validation and integrated APIs to retrieve and display data from backend services.",
+      "Designed and structured the database schema following proper architectural methodologies.",
+      "Implemented Sequelize ORM (Object-Relational Mapping) to streamline database operations and data management.",
+      "Developed comprehensive API documentation using Swagger to support seamless client-server integration.",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "Full Time",
+    job: "Full-Stack Developer Trans Media Sosial",
+    date: "Nov 2023 - Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Developed a Content Management System (CMS) for PT PEFINDO Biro Kredit using Laravel to manage structured data, internal workflows, and content publishing efficiently.",
+      "Developed Shopethic, an AI-powered beauty product exploration platform using Next.js, Tailwind CSS, and Ollama, enabling users to discover products, access promotional information, and interact with an AI assistant for personalized product recommendations.",
+      "Developed Medmon, a social media analytics and monitoring platform using Next.js and Tailwind CSS to visualize data from Instagram, Twitter (X), Facebook, and news sources through interactive dashboards and filtering features.",
+      "Designed and developed scalable RESTful APIs (Hadith, Influencers, Polling & Voting systems) using Python (FastAPI) and Express.js.",
+      "● Implemented Elasticsearch for advanced search and indexing.",
+      "● Managed relational databases with MySQL and Sequelize ORM.",
+      "● Integrated MinIO for object storage and media handling.",
+      "● Built secure, high-performance endpoints to support multi-platform integration.",
+      "Currently handling the development of Smart City Dashboard (TypeScript, React, Vite), building interactive data visualizations and modular components to support real-time urban monitoring and decision-making systems.",
+      "Documented technical specifications, system architecture, and project dependencies to ensure maintainability and team collaboration.",
+      "Utilized Git for version control, enabling structured collaboration, code reviews, and streamlined deployment workflows.",
     ],
   },
 ];
