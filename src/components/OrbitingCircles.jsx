@@ -8,11 +8,16 @@ export function OrbitingCircles({
   duration = 20,
   radius = 160,
   path = true,
-  iconSize = 30,
+  iconSize,
   speed = 1,
   ...props
 }) {
+  
   const calculatedDuration = duration / speed;
+  const calculatedIconSize =
+    iconSize ??
+    Math.max(24, Math.min(60, radius / (count / 2)));
+
   return (
     <>
       {path && (
@@ -22,7 +27,7 @@ export function OrbitingCircles({
           className="absolute inset-0 pointer-events-none size-full"
         >
           <circle
-            className="stroke-1 stroke-white/10"
+            className="stroke-1 stroke-white/20"
             cx="50%"
             cy="50%"
             r={radius}
@@ -38,7 +43,7 @@ export function OrbitingCircles({
               "--duration": calculatedDuration,
               "--radius": radius,
               "--angle": angle,
-              "--icon-size": `${iconSize}px`,
+              "--icon-size": `${calculatedIconSize}px`,
             }}
             className={twMerge(
               `absolute flex size-[var(--icon-size)] transform-gpu animate-orbit items-center justify-center rounded-full ${

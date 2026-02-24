@@ -8,7 +8,7 @@ const ReviewCard = ({ img, title, description }) => {
   return (
     <figure
       className={twMerge(
-        "relative w-72 cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-violet-900 to-violet-950 p-4 hover:scale-105 transition-transform duration-300"
+        "relative w-72 cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-midnight to-violet-950 p-4 hover:scale-105 transition-transform duration-300"
       )}
     >
       <div className="w-full h-40 overflow-hidden rounded-lg mb-4 bg-white/10">

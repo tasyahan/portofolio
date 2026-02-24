@@ -10,7 +10,7 @@ export function Frameworks() {
     "github",
     "html5",
     "css3",
-    "typecript",
+    "typescript",
     "javascript",
     "react",
     "express",
