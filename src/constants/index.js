@@ -339,11 +339,11 @@ export const myProjects = [
 ];
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+  // {
+  //   name: "WhatsApp",
+  //   href: "",
+  //   icon: "/assets/socials/whatsApp.svg",
+  // },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/tasyahan/",
@@ -400,53 +400,126 @@ export const experiences = [
     ],
   },
 ];
-export const reviews = [
+
+export const certificates = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    img: "/assets/certificates/skilvul-intro-coding.jpg",
+    title: "Skilvul",
+    description: "Intro to Coding",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    img: "/assets/certificates/skilvul-html.jpg",
+    title: "Skilvul",
+    description: "Basic HTML",
+  },
+   {
+    img: "/assets/certificates/skilvul-css.jpg",
+    title: "Skilvul",
+    description: "Basic CSS",
+  },
+   {
+    img: "/assets/certificates/skilvul-javascript.jpg",
+    title: "Skilvul",
+    description: "Basic JavaScript",
+  },
+   {
+    img: "/assets/certificates/skilvul-javascript-intermediate.jpg",
+    title: "Skilvul",
+    description: "JavaScript Intermediate",
+  },
+   {
+    img: "/assets/certificates/skilvul-git.jpg",
+    title: "Skilvul",
+    description: "Basic Git and Github",
+  },
+   {
+    img: "/assets/certificates/skilvul-web-development.jpg",
+    title: "Skilvul",
+    description: "Beginner Web Development",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    img: "/assets/certificates/react.jpg",
+    title: "Camp404",
+    description: "ReactJS Web Development",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    img: "/assets/certificates/green-digital-skill.jpg",
+    title: "INCO Academy",
+    description: "Green Digital Skills",
   },
   {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
+    img: "/assets/certificates/python-sql.jpg",
+    title: "DQLab",
+    description: "BootCamp Data Analyst with Python & SQL",
   },
   {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
+    img: "/assets/certificates/project-python-sql.jpg",
+    title: "DQLab",
+    description: "Final Project Data Analyst with Python & SQL",
   },
   {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
+    img: "/assets/certificates/project-python-sql.jpg",
+    title: "DQLab",
+    description: "Final Project Data Analyst with Python & SQL",
   },
   {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
+    img: "/assets/certificates/python-cybersecurity.jpg",
+    title: "Digital Talent Scholarship",
+    description: "Python and Cyber Security",
+  },
+  {
+    img: "/assets/certificates/python.jpg",
+    title: "DQLab",
+    description: "Introduction to Data Science with Python",
+  },
+  {
+    img: "/assets/certificates/python-fundamental.jpg",
+    title: "DQLab",
+    description: "Python Fundamental for Data Science",
+  },
+  {
+    img: "/assets/certificates/sql.jpg",
+    title: "DQLab",
+    description: "Fundamental SQL Using SELECT Statement",
+  },
+  {
+    img: "/assets/certificates/basic-web-development.jpg",
+    title: "Markoding",
+    description: "Basic Web Development",
+  },
+  {
+    img: "/assets/certificates/frontend.jpg",
+    title: "Generation Girls",
+    description: "Front End",
+  },
+  {
+    img: "/assets/certificates/tech-muda-working.jpg",
+    title: "Plan International Indonesia",
+    description: "90 Days Working in the Technology Sector",
+  },
+    {
+    img: "/assets/certificates/tech-muda-speaker.jpg",
+    title: "Plan International Indonesia",
+    description: "Season of Change : Growth Hacking Mindset",
+  },
+  {
+    img: "/assets/certificates/iot.jpg",
+    title: "Food Security, Marine, and Agriculture Agency of DKI Jakarta Province",
+    description: "Introduction and Application of IoT (Internet of Things) in Hydroponic Cultivation",
+  },
+  {
+    img: "/assets/certificates/inspiralearn-training.jpg",
+    title: "Inspiration Factory Faoundation",
+    description: "InspiraLearn Training",
+  },
+  {
+    img: "/assets/certificates/inspirateam-core-member.jpg",
+    title: "Inspiration Factory Faoundation",
+    description: "InspiraTeam Member as Core Team",
+  },
+  {
+    img: "/assets/certificates/human-rights.png",
+    title: "Inspiration Factory Faoundation x United National Human Rights",
+    description: "Youth Engagement Sesion of Economic, Sosial, and Cultural Rights",
   },
 ];
