@@ -19,8 +19,13 @@ function Navigation() {
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
+        <a className="nav-link" href="#project">
+          Project
+        </a>
+      </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#achievement">
+          Achievement
         </a>
       </li>
     </ul>

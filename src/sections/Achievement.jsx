@@ -30,7 +30,7 @@ const ReviewCard = ({ img, title, description }) => {
 
 export default function Achievement() {
   return (
-    <div className="items-start mt-25 md:mt-35 c-space">
+    <div className="items-start my-25 md:my-35 c-space" id="achievement">
       <h2 className="text-heading">Achievements</h2>
       <div className="relative flex flex-col items-center justify-center w-full mt-12 overflow-hidden">
         <Marquee pauseOnHover className="[--duration:20s]">

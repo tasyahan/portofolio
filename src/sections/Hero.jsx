@@ -11,25 +11,42 @@ import Loader from "../components/Loader";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
-      <HeroText />
-      <ParallaxBackground />
-      <figure
-        className="absolute inset-0"
-        style={{ width: "100vw", height: "100vh" }}
-      >
-        <Canvas camera={{ position: [0, 1, 3] }}>
-          <Suspense fallback={<Loader />}>
-            <Float>
-              <Astronaut
-                scale={isMobile && 0.23}
-                position={isMobile && [0, -1.5, 0]}
-              />
-            </Float>
-            <Rig />
-          </Suspense>
-        </Canvas>
-      </figure>
+    // <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
+    //   <HeroText />
+    //   <ParallaxBackground />
+    //   <figure
+    //     className="absolute inset-0"
+    //     style={{ width: "100vw", height: "100vh" }}
+    //   >
+    //     <Canvas camera={{ position: [0, 1, 3] }}>
+    //       <Suspense fallback={<Loader />}>
+    //         <Float>
+    //           <Astronaut
+    //             scale={isMobile && 0.23}
+    //             position={isMobile && [0, -1.5, 0]}
+    //           />
+    //         </Float>
+    //         <Rig />
+    //       </Suspense>
+    //     </Canvas>
+    //   </figure>
+    // </section>
+    <section
+      className="flex items-start justify-center h-full overflow-hidden md:items-start md:justify-start c-space" id="home"
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full gap-10">
+        <div>
+          <HeroText />
+        </div>
+        <div className="flex justify-center">
+          <img
+            src="/assets/profile.png"
+            alt="code"
+            className="w-full max-w-md object-contain mt-20 md:mt-40"
+          />
+        </div>
+
+      </div>
     </section>
   );
 };
