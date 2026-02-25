@@ -277,6 +277,11 @@ export const myProjects = [
         name: "ViteJS",
         path: "/assets/logos/vitejs.svg",
       },
+      {
+        id: 4,
+        name: "MapBox",
+        path: "/assets/logos/mapbox.svg",
+      },
     ],
   },
   {
