@@ -1,48 +1,52 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-function Navigation() {
+
+function Navigation({ onClick }) {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li">
-        <a className="nav-link" href="#home">
+    <ul className="flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-8">
+      <li>
+        <a className="nav-link" href="#home" onClick={onClick}>
           Home
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#about">
+      <li>
+        <a className="nav-link" href="#about" onClick={onClick}>
           About
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">
+      <li>
+        <a className="nav-link" href="#work" onClick={onClick}>
           Work
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#project">
+      <li>
+        <a className="nav-link" href="#project" onClick={onClick}>
           Project
         </a>
       </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#achievement">
+      <li>
+        <a className="nav-link" href="#achievement" onClick={onClick}>
           Achievement
         </a>
       </li>
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+    <div className="fixed inset-x-0 top-0 z-50 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
-        <div className="flex items-center justify-between py-2 sm:py-0">
+        <div className="flex items-center justify-between py-3">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-lg font-bold transition-colors sm:text-xl text-neutral-400 hover:text-white"
           >
             Tasyahan
           </a>
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
@@ -53,21 +57,22 @@ const Navbar = () => {
               alt="toggle"
             />
           </button>
+
           <nav className="hidden sm:flex">
             <Navigation />
           </nav>
         </div>
       </div>
+
       {isOpen && (
         <motion.div
-          className="block overflow-hidden text-center sm:hidden"
-          initial={{ opacity: 0, x: -10 }}
-          animate={{ opacity: 1, x: 0 }}
-          style={{ maxHeight: "100vh" }}
-          transition={{ duration: 1 }}
+          className="sm:hidden w-full h-screen max-h-screen overflow-y-auto bg-primary/95 backdrop-blur-xl"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
         >
-          <nav className="pb-5">
-            <Navigation />
+          <nav className="flex sm:items-center sm:justify-center h-full sm:p-0 p-5">
+            <Navigation onClick={() => setIsOpen(false)} />
           </nav>
         </motion.div>
       )}
