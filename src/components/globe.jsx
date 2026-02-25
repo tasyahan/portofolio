@@ -101,6 +101,7 @@ export function Globe({ className, config = GLOBE_CONFIG }) {
         className
       )}
     >
+      <div></div>
       <canvas
         className={twMerge(
           "size-[30rem] opacity-0 transition-opacity duration-500 [contain:layout_paint_size]"
