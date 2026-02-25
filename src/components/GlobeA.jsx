@@ -36,7 +36,7 @@ const GLOBE_CONFIG = {
   ],
 };
 
-export function GlobeA({ className, config = GLOBE_CONFIG }) {
+export function Globe({ className, config = GLOBE_CONFIG }) {
   let phi = 0;
   let width = 0;
   const canvasRef = useRef(null);
